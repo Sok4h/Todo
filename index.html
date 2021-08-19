@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Todos</h1>
+    </header>
+
+    <main>
+        <section class="input__container">
+            
+            <div class="img__container">
+
+                <img src="img\expand_more_black_24dp.svg" alt="">
+
+            </div>
+            <input class="inputTodo" type="text" placeholder="what needs to be done?">
+        </section>
+
+        <section class="todos__container">
+        </section>
+
+        <section class="filters__container">
+
+            <p class="items_left"></p>
+
+            <div class="filters">
+
+                <button name="all" class="btn btn--active">All</button>
+                <button name="active" class="btn ">Active</button>
+                <button name="completed" class="btn ">Completed</button>
+            </div>
+            <a class="clear__completed" href="#">Clear Completed</a>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="./index.js"></script>
+<script src="./task.js"></script>
+</html>

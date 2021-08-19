@@ -1,0 +1,152 @@
+.todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.todo__input {
+  height: 90%;
+  border: none;
+  margin-left: 20px;
+  display: none;
+}
+
+.todo__input:focus {
+  display: block;
+}
+
+.todo .checkbox {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+.todo:hover .deleteTodo {
+  display: block;
+  cursor: pointer;
+  color: red;
+}
+
+.todo:hover .deleteTodo:hover {
+  font-size: 20px;
+}
+
+.todo .deleteTodo {
+  margin-left: auto;
+  display: none;
+  padding-right: 10px;
+}
+
+.todo .todo__label {
+  margin-left: 20px;
+}
+
+.none {
+  display: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.btn {
+  background: transparent;
+  padding: 5px;
+  border: none;
+}
+
+.btn--active {
+  border: 1px solid #EAD7D7;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .input__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid gray;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .input__container input {
+  padding: 10px;
+  width: 80%;
+  height: 30px;
+  text-align: left;
+  border: none;
+}
+
+main .input__container input:focus {
+  outline: none;
+}
+
+main .input__container .img__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .input__container .img__container img {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main .todos__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid gray;
+}
+
+main .filters__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styles.css.map */
